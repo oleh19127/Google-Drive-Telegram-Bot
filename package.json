@@ -1,0 +1,33 @@
+{
+  "name": "google-drive-telegram-bot",
+  "version": "1.0.0",
+  "description": "This bot getting random photos from your google drive and send your",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "google drive api",
+    "google drive",
+    "telegram",
+    "telegram-bot",
+    "gallery"
+  ],
+  "author": "Oleh Husak (https://github.com/oleh312)",
+  "license": "ISC",
+  "dependencies": {
+    "array-uniq": "^3.0.0",
+    "del": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "gaxios": "^5.0.2",
+    "nodemon": "^2.0.20",
+    "ora": "^6.1.2",
+    "telegraf": "^4.11.2",
+    "utils-google-drive": "^5.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  }
+}
