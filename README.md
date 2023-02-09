@@ -4,7 +4,7 @@
 
 ## Demo
 
-![Demo](https://github.com/oleh312/Google-Drive-Telegram-Bot/blob/master/assets/demo.gif)
+![Demo](https://github.com/oleh312/Google-Drive-Telegram-Bot/blob/main/assets/demo.gif)
 
 ## How to use
 
