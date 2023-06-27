@@ -4,11 +4,11 @@
 
 ## Demo
 
-![Demo](https://github.com/oleh312/Google-Drive-Telegram-Bot/blob/main/assets/demo.gif)
+![Demo](https://github.com/oleh19127/Google-Drive-Telegram-Bot/blob/main/assets/demo.gif)
 
 ## How to use
 
-<pre>git clone https://github.com/oleh312/Google-Drive-Telegram-Bot.git .; rm -rf trunk .gitignore readme.md .git .gitattributes</pre>
+<pre>git clone https://github.com/oleh19127/Google-Drive-Telegram-Bot.git .; rm -rf trunk .gitignore readme.md .git .gitattributes</pre>
 
 1 Clone or Download project
 
