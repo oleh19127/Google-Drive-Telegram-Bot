@@ -31,7 +31,7 @@ telegrafBot.command('get_photos', async (ctx) => {
   console.log('End getting all files from google drive');
 
   console.log('Getting random photos...');
-  const randomFiles = await utils.getRandomPhotos(allFiles, 20);
+  const randomFiles = await utils.getRandomPhotos(allFiles, 10);
   console.log('End getting random photos');
 
   console.log('Start downloading photos...');
@@ -44,11 +44,11 @@ telegrafBot.command('get_photos', async (ctx) => {
 
   await ctx.reply('Start sending photos...');
   console.log('Start sending photos...');
-  let sleepTime = 200;
+  let sleepTime = 500;
   for (const image of allImages) {
     await ctx.replyWithPhoto(Input.fromLocalFile(image));
     await utils.sleep(sleepTime);
-    sleepTime = sleepTime + 50;
+    sleepTime = sleepTime + 100;
   }
   console.log('End sending photos');
   await ctx.reply('End sending photos');
