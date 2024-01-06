@@ -1,0 +1,74 @@
+{
+  "env": {
+    "node": true,
+    "es2021": true
+  },
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-unused-vars": ["off"],
+    "no-var": ["error"],
+    "prefer-const": ["error"],
+    "array-callback-return": ["error"],
+    "constructor-super": ["error"],
+    "for-direction": ["error"],
+    "no-await-in-loop": ["off"],
+    "no-compare-neg-zero": ["error"],
+    "no-cond-assign": ["error"],
+    "no-const-assign": ["error"],
+    "no-constant-binary-expression": ["error"],
+    "no-constant-condition": ["off"],
+    "no-constructor-return": ["error"],
+    "no-control-regex": ["error"],
+    "no-dupe-class-members": ["error"],
+    "no-dupe-else-if": ["error"],
+    "no-dupe-keys": ["error"],
+    "no-duplicate-case": ["error"],
+    "no-duplicate-imports": ["error"],
+    "no-fallthrough": ["error"],
+    "no-inner-declarations": ["error"],
+    "no-invalid-regexp": ["error"],
+    "no-new-native-nonconstructor": ["error"],
+    "no-self-assign": ["error"],
+    "no-self-compare": ["error"],
+    "no-sparse-arrays": ["error"],
+    "no-template-curly-in-string": ["error"],
+    "no-this-before-super": ["error"],
+    "no-unexpected-multiline": ["error"],
+    "no-unreachable": ["error"],
+    "use-isnan": ["error"],
+    "valid-typeof": ["error"],
+    "no-empty": ["error"],
+    "no-multi-assign": ["error"],
+    "no-new": ["error"],
+    "no-new-func": ["error"],
+    "array-bracket-spacing": ["error"],
+    "arrow-parens": ["error"],
+    "block-spacing": ["error"],
+    "brace-style": ["error"],
+    "comma-style": ["error"],
+    "func-call-spacing": ["error"],
+    "indent": ["error", 2],
+    "line-comment-position": ["error"],
+    "lines-around-comment": [
+      "error",
+      {
+        "beforeBlockComment": true,
+        "afterBlockComment": true
+      }
+    ],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 2
+      }
+    ],
+    "no-trailing-spaces": ["error"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"]
+  }
+}

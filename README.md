@@ -34,12 +34,12 @@
 
 ## What I used
 
-1) <a  href="https://www.npmjs.com/package/array-uniq">array-uniq</a>
-2) <a  href="https://www.npmjs.com/package/del">del</a>
-3) <a  href="https://www.npmjs.com/package/dotenv">dotenv</a>
-4) <a  href="https://www.npmjs.com/package/gaxios">gaxios</a>
-5) <a  href="https://www.npmjs.com/package/nodemon">nodemon</a>
-6) <a  href="https://www.npmjs.com/package/ora">ora</a>
-7) <a  href="https://www.npmjs.com/package/telegraf">telegraf</a>
-8) <a  href="https://www.npmjs.com/package/utils-google-drive">utils-google-drive</a>
-9) <a  href="https://www.npmjs.com/package/prettier">prettier</a>
+1. <a  href="https://www.npmjs.com/package/array-uniq">array-uniq</a>
+2. <a  href="https://www.npmjs.com/package/del">del</a>
+3. <a  href="https://www.npmjs.com/package/dotenv">dotenv</a>
+4. <a  href="https://www.npmjs.com/package/gaxios">gaxios</a>
+5. <a  href="https://www.npmjs.com/package/nodemon">nodemon</a>
+6. <a  href="https://www.npmjs.com/package/ora">ora</a>
+7. <a  href="https://www.npmjs.com/package/telegraf">telegraf</a>
+8. <a  href="https://www.npmjs.com/package/utils-google-drive">utils-google-drive</a>
+9. <a  href="https://www.npmjs.com/package/prettier">prettier</a>
