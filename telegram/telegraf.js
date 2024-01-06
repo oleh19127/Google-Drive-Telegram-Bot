@@ -48,7 +48,7 @@ telegrafBot.command('get_photos', async (ctx) => {
   for (const image of allImages) {
     await ctx.replyWithPhoto(Input.fromLocalFile(image));
     await utils.sleep(sleepTime);
-    sleepTime = sleepTime + 100;
+    sleepTime = sleepTime + 150;
   }
   console.log('End sending photos');
   await ctx.reply('End sending photos');
